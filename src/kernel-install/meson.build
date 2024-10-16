@@ -32,6 +32,7 @@ loaderentry_install = custom_target(
 uki_copy_install = files('90-uki-copy.install')
 
 kernel_install_files = uki_copy_install + files(
+        '90-uki-pcrlock.install',
         '50-depmod.install',
 )
 

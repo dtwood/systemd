@@ -505,8 +505,6 @@ Features:
   nvme-oF
 
 * pcrlock:
-  - add kernel-install plugin that automatically creates UKI .pcrlock file when
-    UKI is installed, and removes it when it is removed again
   - automatically install PE measurement of sd-boot on "bootctl install"
   - pre-calc sysext + kernel cmdline measurements
   - pre-calc cryptsetup root key measurement
